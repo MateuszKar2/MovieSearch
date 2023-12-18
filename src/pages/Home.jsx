@@ -1,7 +1,7 @@
 const { useState, useEffect } = require("react");
 import { fetchTrendMovies } from "services/api";
 import MovieList from "components/MovieList/MovieList";
-import  { LoadingIndicator } from "./SharedLayout.styled";
+import  { LoadingIndicator } from '../components/SharedLayout/LoadingDots';
 
 
 
