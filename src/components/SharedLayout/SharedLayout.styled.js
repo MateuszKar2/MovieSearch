@@ -1,0 +1,55 @@
+import styled, { keyframes } from 'styled-components';
+import { Navlink } from 'react-router-dom';
+
+export const StyledHeader = styled.header`
+padding: 20px 30px;
+text-align: left;
+box-shadow: 0px 1px 10px #8aa4b7;
+`
+
+export const StyledNavlink = styled(Navlink)`
+display: inline-block;
+  font-size: 24px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+  color: #000000;
+
+  &:not(:last-child) {
+    margin-right: 40px;
+  }
+
+  &.active,
+  &:hover,
+  &:focus {
+    color: #1c85ff;
+    text-decoration: underline;
+  };
+`
+
+const bounce = keyframes`
+    0%, 80%, 100% {
+    transform: scale(0);
+    }
+    40% {
+    transform: scale(1);
+    }
+`
+
+export const LoadingDots = styled.div`
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+`;
+
+export const Dot = styled.div`
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background-color: #1c72ff;
+  animation: ${bounce} 1s infinite ease-in-out;
+  animation-delay: ${({ delay }) => delay}; 
+`;
