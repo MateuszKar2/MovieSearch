@@ -1,7 +1,7 @@
 import React, {Suspense} from "react";
 import { Outlet } from 'react-router-dom';
 import { LoadingIndicator } from './LoadingDots';
-import { StyledHeader, StyledNavlink } from './SharedLayout.styled';
+import { StyledHeader, StyledNavlink } from "./SharedLayout.styled";
 
 const SharedLayout = () => {
     return (
@@ -17,5 +17,7 @@ const SharedLayout = () => {
                 <Outlet />
             </Suspense>
         </>
-    )
-}
+    );
+};
+
+export default SharedLayout;
