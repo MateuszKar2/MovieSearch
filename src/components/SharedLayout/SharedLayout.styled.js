@@ -5,7 +5,7 @@ export const StyledHeader = styled.header`
 padding: 20px 30px;
 text-align: left;
 box-shadow: 0px 1px 10px #8aa4b7;
-`
+`;
 
 export const StyledNavlink = styled(Navlink)`
 display: inline-block;
@@ -25,7 +25,7 @@ display: inline-block;
     color: #1c85ff;
     text-decoration: underline;
   };
-`
+`;
 
 const bounce = keyframes`
     0%, 80%, 100% {
@@ -34,7 +34,7 @@ const bounce = keyframes`
     40% {
     transform: scale(1);
     }
-`
+`;
 
 export const LoadingDots = styled.div`
 display: flex;
