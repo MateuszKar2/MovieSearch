@@ -8,6 +8,18 @@ export const Form = styled.form`
     margin-bottom: 20px;
 `;
 
+export const Input = styled.input`
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    margin-right: 15px;
+    font-size: 16px;
+    &:hover,
+    &:focus {
+    border: 1px solid #0d57aa;
+    }
+`;
+
 export const Button = styled.button`
     background-color: #b5d1f2;
     border: 1px solid #0d57aa;
