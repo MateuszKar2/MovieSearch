@@ -33,8 +33,8 @@ export const StyledLink = styled(Link)`
     text-decoration: none;
     &:hover,
     &:focus {
-        background-color: #Od57aa;
-        color: #ffffff;
+        background-color: lightblue;
+        color: darkblue;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
         border-bottom: 2px solid #1c85ff;
     }
