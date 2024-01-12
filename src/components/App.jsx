@@ -19,7 +19,7 @@ const Reviews = lazy(() => import('./Reviews/Reviews'));
 
 export const App = () => {
   return(
-    <Router>
+    <Router basename="/goit-react-hw-05-movies">
       <Suspense fallback={<div>Loading...please wait</div>}>
         <Routes>
           <Route path="/" element={<SharedLayout />}>
