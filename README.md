@@ -1,4 +1,4 @@
-# 🎬 MovieSearch
+ # 🎬 MovieSearch
 
 **MovieSearch** is a React-based application that allows users to search for movies and explore movie details using The Movie Database (TMDb) API. Enter a movie title, and the app will display a list of matching results with basic information. Click on a movie to see more details like the plot, cast, and ratings.
 
